@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/product.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.font.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rslide.css">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <script type="text/javascript" data-main="assets/js/main.js" src="assets/js/require.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div id="header" class="header">
+			<div class="bg">
+				<a class="logo" title="vani.com" href="/"><img src="assets/images/logo.jpg"></a>
+				<ul class="nav">
+					<li class="nav-item"><a href="product.html">Product</a></li>
+					<li class="nav-item"><a href="http://forum.vani-tablet.com/">Support</a></li>
+					<li class="nav-item">
+						<a href="about.html">About Us</a>
+					</li>
+				</ul>
+				<!--
+				<div class="search-box">
+					<label class="flag">Search</label>
+					<input type="text" name="keyword" class="keyword" autocomplete="off"/><button type="submit" class="btn-search"><span class="glyphicon glyphicon-search"></span></button>
+				</div>
+				 -->
+			</div>
+		</div>

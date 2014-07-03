@@ -1,0 +1,170 @@
+@import "params";
+
+#product-content{
+	position:relative;
+}
+.pro-head{
+	background-color:#FFF;
+	font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	padding:@N 0 0;
+	margin:@L 0;
+	border-bottom:1px solid @bd_col1;
+	.transition(margin-top,.25s,ease-in);
+	.pro-head-leftCon{
+		float:left;
+		margin-top:0;
+	}
+	.pro-head-rightCon{
+		display:inline;
+		float:right;
+		li{
+			display:inline;
+		}
+		li a{
+			float:left;
+			color:@font_col1;
+			margin: 1em 0 0 24px;
+			.text-shadow(0,1px,0,#FFF);
+		}
+		li a:hover{
+			text-decoration:none;
+			color:@link_col2;
+		}
+		li.actived a{
+			color:@font_col4;
+		}
+		.btn-buynow{
+			background: url(../images/buynows.png);
+			display: block;
+			width: 72px;
+			height: 25px;
+			margin:0.8em 0 0 20px;
+			text-indent:-9999px;
+		}
+		.btn-buynow:hover{
+			background-position:0 -25px;
+		}
+		.btn-buynow:active{
+			background-position:0 -50px;
+		}
+	}
+}
+.pro-head-fixed{
+	position:fixed;
+	background-color:rgba(255,255,255,.9);
+	top:0;
+	left:0;
+	width:100%;
+	padding: @N @L 0;
+	margin-top:0;
+	zIndex:999;
+}
+.vani-conent-intro{
+	text-align:center;
+	section{
+		display:none;
+		padding-top:42px;
+	}
+	section.overview{
+		display:block;
+	}
+	section:last-child{
+		border:none;
+	}
+	section img{
+		max-width:100%;
+	}
+	section hr{
+		margin-top:0;
+	}
+	section h2{
+		color:#000;
+	}
+	section p{
+		font-size: 20px;
+		color:@font_col4;
+	}
+	table{
+		color:@font_col2;
+		font-size:14px;
+	}
+	table td{
+		border:1px solid @bd_col1;
+		border-collapse:collapse;
+	}
+	table td:nth-child(odd){
+		background: @bg_col2;
+	}
+	table td ol{
+		margin: 0;
+		text-align:left;
+		color:@font_col4;
+	}
+	table td li{
+		margin:@N 0;
+	}
+	ol li strong,ol li span{
+		display:inline-block;
+		vertical-align:text-top;
+	}
+	ol li strong{
+		width:20%;
+	}
+}
+.vn-product-box{
+	margin-top:@L*2;
+}
+.vn-all-goods-list{
+	border-top:1px solid @bd_col1;
+	border-top:1px solid @bd_col1;
+	text-align:center;
+	li.vn-good-item{
+		background:@bg_col2;
+		float:left;
+		width:333px;
+		border-right:1px solid @bd_col1;
+		border-bottom:1px solid @bd_col1;
+		.item-content{
+			background: #FFF;
+			padding: @S;
+			border: 6px solid #FFF;
+			.transition(border-color,.4s,ease);
+		}
+		.item-content:hover{
+			border-color:@bg_col1;
+		}
+		.item-thumb,.item-title,.item-desc{
+			display:block;
+		}
+		.item-thumb{
+			margin-bottom:@N;
+			img{
+				width:220px;
+				height:220px;
+			}
+		}
+		.item-title{
+			font-size:16px;
+			line-height:2em;
+		}
+		.item-desc{
+			color:@font_col4;
+		}
+	}
+
+}
+.article{
+	padding: 0 @L 0;
+	background: #f8f8f8;
+	margin-top: @L;
+	font-size:14px;
+	.border-radius(8px,8px,8px,8px);
+	border: 1px solid @bd_col1;
+	strong{
+		margin-right:@N;
+	}
+	.section{
+		color:@font_col3;
+	}
+}
+
